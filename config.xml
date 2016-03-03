@@ -13,10 +13,10 @@
         My hello Andorid application. 
     </description>
 
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Hardeep Shoker 
+    <author href="https://github.com/Demobuster" email="petukhovser@gmail.com">
+        Sergei P
     </author>
     
-    <platform name="android" />
+    <platform name="ios" />
 
 </widget>
