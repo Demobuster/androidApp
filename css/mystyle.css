@@ -1,0 +1,30 @@
+/* Move down content because we have a fixed navbar that is 50px tall 
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+*/
+
+/*
+@font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/bluebar/8090b48/webfonts/proximanova-light-webfont.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/bluebar/8090b48/webfonts/proximanova-light-webfont.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/bluebar/8090b48/webfonts/proximanova-light-webfont.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/bluebar/8090b48/webfonts/proximanova-light-webfont.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/bluebar/8090b48/webfonts/proximanova-light-webfont.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+    
+    */
+    
+    
+    
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic-ext,cyrillic);
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'proxima-nova', Arial, "Lucida Grande", sans-serif; 
+}
+p, div {
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'proxima-nova', Arial, "Lucida Grande", sans-serif; 
+}
