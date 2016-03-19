@@ -19,6 +19,6 @@
     
     <platform name="android" />
     
-    <access origin="https://googledrive.com" subdomains="true" />
+    <access origin="*" />
 
 </widget>
