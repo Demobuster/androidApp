@@ -20,16 +20,16 @@
 </head>
 
 <body>
-	<div class="container" >
-		<form class="form-signin" action="reg" method="post" name="signinForm" data-toggle="validator" role="form">
+	<div class="container">
+		<form class="form-signin" action="https://realty-serzh.rhcloud.com/reg" method="post" name="signinForm" data-toggle="validator" role="form">
 			<h2 class="featurette-heading">
 				You don't have an account  <span class="text-muted">Please sign up</span>
 			</h2>
-			<input type="text" name="username" placeholder="username" id="username" class="form-control" onchange="validateUsername();" required>
+			<input type="text" name="j_username" placeholder="username" id="username" class="form-control" onchange="validateUsername();" required>
 			
 			<div class="form-group">
 				<div class="form-group">
-					<input type="password" name="password" placeholder="password" data-minlength="6" class="form-control" id="inputPassword" onchange="validatePassword();" required>
+					<input type="password" name="j_password" placeholder="password" data-minlength="6" class="form-control" id="inputPassword" onchange="validatePassword();" required>
 					<span class="help-block">Minimum of 6 characters</span>
 				</div>
 				<div class="form-group">
@@ -51,7 +51,7 @@
 			<p class="pull-right">
 				<a href="welcome.html">Home</a>
 			</p>
-			<p>&copy; 2015 Serzh Petukhov</p>
+			<p>&copy; 2016 Serzh Petukhov</p>
 		</footer>
 	</div>
 
