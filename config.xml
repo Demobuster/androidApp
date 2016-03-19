@@ -18,5 +18,7 @@
     </author>
     
     <platform name="android" />
+    
+    <access origin="https://googledrive.com" subdomains="true" />
 
 </widget>
