@@ -17,7 +17,7 @@
 <!-- mystyle.css -->
 <link href="https://googledrive.com/host/0BweevD4Le1puWEIzMmUwemZNdnc" rel="stylesheet">
 
-<title>List Of Avaliable Properties</title>
+<title>Cart</title>
 </head>
 <body>
 	<script>
@@ -41,29 +41,18 @@
 			<div id="navbar" class="navbar-collapse collapse"
 				aria-expanded="false" style="height: 0.800000011920929px;">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="cart.html">Cart</a></li>
 					<li><a href="javascript:formSubmit()">Logout</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	
-	<div class="container">
-		<form action="doSearch" method="post" class="form-signin">
-			<input type="text" name="searchText" placeholder="Searching by words" />	<br/> 
-			<input type="hidden" name="" value="" />
-
-			<input type="reset"	value="Reset" />
-			<input type="submit" value="Search for" />
-		</form>
-	</div>
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 main">
 				<h1 class="page-header">Estate rent</h1>
 
-				<h2 class="sub-header">Available Property List</h2>
+				<h2 class="sub-header"></h2>
 				<div class="table-responsive">
 					<table class="table table-striped">
 						<thead>
@@ -77,7 +66,7 @@
 					
 						<tbody class="inserHere">
 							<script id="tableTemplate" type="text/x-handlebars-template">
-								{{#each allProperties}}
+								{{#each allHire}}
 									<tr>
 										<td>{{address}}</td>
 										<td>{{description}}</td>
@@ -99,20 +88,19 @@
 			<p class="pull-right">
 				<a href="property.html">Back to explorer</a></p>
 				
-					<p><a href="dashboard"><img src="https://googledrive.com/host/0BweevD4Le1puVXE3cDE2TEZ6ZVk" 
-						class="img-responsive"></a></p>
+					<p><a href="dashboard"><img src="https://googledrive.com/host/0BweevD4Le1puVXE3cDE2TEZ6ZVk" class="img-responsive"></a></p>
 			
 			<p>&copy; 2016 Serzh Petukhov</p>
 		</footer>
 	</div>
 
 	<!-- jquery.min.js -->
-	<script src="../js/jquery-1.12.2.min.js"></script>
-	<!-- handlebars.js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- jquery.min.js -->
 	<script src="../js/handlebars.js"></script>
 	
 	<!-- bootstrap.min.js -->
-	<script type='text/javascript' src='../js/bootstrap.min.js'></script>
+	<script type='text/javascript' src='https://googledrive.com/host/0BweevD4Le1puQU9ZZ0Z1Nm1peFk'></script>
 	<!-- render.js -->
 	<script type='text/javascript' src='../js/render.js'></script>
 </body>
