@@ -20,6 +20,7 @@
     <platform name="android" />
     
     <preference name="fullscreen" value="true" />  <!-- all: hides the status bar at the top of the screen -->
+    <preference name="stay-in-webview" value="true"/> 
     
     <!-- Plugins -->
 
