@@ -13,26 +13,11 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
 <script src="phonegap.js"></script>
+<script src="link.js"></script>
 
 </head>
 
 <body style="background: url('../www/images/ny.jpg') no-repeat scroll 0px 100% / cover transparent;">
-	<script type="text/javascript" charset="utf-8">
-
-    // Wait for Cordova to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    // Cordova is ready
-    //
-    function onDeviceReady() {
-         var ref = window.open('http://apache.org', '_blank', 'location=yes');
-         ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
-         ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
-         ref.addEventListener('exit', function() { alert(event.type); });
-    }
-
-    </script>
 	
     <div class="site-wrapper">
 		<div class="site-wrapper-inner">
@@ -52,7 +37,8 @@
 				<div class="inner cover">
 					<h1 class="cover-heading">Find yourself a home</h1>
 					<p class="lead">
-						<a href="#"	"https://realty-serzh.rhcloud.com/androidProperty">Enter</a>
+						<a onclick="window.open(this.href,'_system','location=no');return false;" 
+						href="https://realty-serzh.rhcloud.com/androidProperty">Enter</a>
 					</p>
 				</div>
 
