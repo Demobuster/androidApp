@@ -13,11 +13,27 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
 <script src="phonegap.js"></script>
-<script src="js/link.js"></script>
 
 </head>
 
 <body style="background: url('../www/images/ny.jpg') no-repeat scroll 0px 100% / cover transparent;">
+	
+	<script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+         var ref = window.open('https://androidapp-demobuster.c9users.io/www/pages/login.html', '_blank', 'location=no');
+         ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
+         ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
+         ref.addEventListener('exit', function() { alert(event.type); });
+    }
+
+    </script>
 	
     <div class="site-wrapper">
 		<div class="site-wrapper-inner">
