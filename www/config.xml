@@ -46,6 +46,7 @@
     <access origin="*" />
     
     <plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
     
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
