@@ -26,8 +26,11 @@
 
     // Cordova is ready
     //
+    
     function onDeviceReady() {
-         window.open('https://androidapp-demobuster.c9users.io/www/pages/login.html', '_blank', 'location=no');
+    	document.getElementById("external-login").onclick = function() {	
+        	window.open('https://androidapp-demobuster.c9users.io/www/pages/login.html', '_blank', 'location=no');
+    	}
     }
 
     </script>
