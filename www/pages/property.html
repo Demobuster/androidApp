@@ -47,16 +47,6 @@
 			</div>
 		</div>
 	</nav>
-	
-	<div class="container">
-		<form action="doSearch" method="post" class="form-signin">
-			<input type="text" name="searchText" placeholder="Searching by words" />	<br/> 
-			<input type="hidden" name="" value="" />
-
-			<input type="reset"	value="Reset" />
-			<input type="submit" value="Search for" />
-		</form>
-	</div>
 
 	<div class="container-fluid">
 		<div class="row">
@@ -69,7 +59,6 @@
 						<thead>
 							<tr>
 								<th>Address</th>
-								<th>Description</th>
 								<th>Fee</th>
 								<th>Option</th>
 							</tr>
@@ -80,7 +69,6 @@
 								{{#each allProperties}}
 									<tr>
 										<td>{{address}}</td>
-										<td>{{description}}</td>
 										<td>{{fee}}</td>
 										<td><a href="javascript:void(0);" id="hireLink" onclick="executeStateProperty('https://realty-serzh.rhcloud.com/hire/{{id}}');">Hire</a></td>
 									</tr>

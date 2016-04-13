@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var url = (window.location.pathname == '/www/pages/property.html') ? 'https://realty-serzh.rhcloud.com/getAllProperties' : 
                                                                          'https://realty-serzh.rhcloud.com/getAllHire';
-    
+
     handlebarsRenderProperty(url);
 });
 
